@@ -1,0 +1,148 @@
+/*start basic element*/
+body{
+    
+    margin: 0;
+    height:3000px;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    font-size:1.3em;
+    color: #fff;
+    background: rgb(38, 23, 63);
+    background: linear-gradient(0deg, rgb(190, 85, 173) 0%, rgb(31, 17, 53) 100%);
+}
+
+h1{
+    padding:.5em;
+    margin: .5em 0;
+}
+p{
+    margin:.5em 0;
+    line-height: 2em;
+}
+/*end basic element*/
+
+
+/*start header*/
+.header{
+    width: 100%;
+    height: 100%;
+    color:#fff;
+    margin:0px;
+    position: static;
+     
+}
+#animate{
+    height:40em;
+    top:0;
+}
+.vanta-canvas{
+    width: 100%;
+    height: 100%;
+}
+/*start navbar*/
+
+
+.navbar {
+    top: 0px;
+    height: 70px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.header .navbar ul{
+    display:inline;
+
+}
+
+.navbar .brand {
+    float: left;
+    width: 30%;
+    margin-top: .9em;
+    margin-left: .9em;
+    
+}
+
+.navbar .links {
+    float: right;
+    height:50%;
+    width: 60%;
+    margin-top: .7em;
+    font-weight: bold;
+}
+
+.navbar .links li {
+    display: inline-block;
+    padding: 10px 1px;
+    font-size: .8em;
+    margin-right: .6em;
+}
+
+.navbar .links li a {
+    text-decoration: none;
+    color:#fff;
+}
+
+.navbar .links li.active a,
+.navbar .links li a:hover {
+    color: #f07ba4;
+}
+/*end navbar*/
+/*start home */
+.my-home{
+    display:block;
+    width: 40%;
+    margin: 12% 5%;
+    float: right;
+}
+
+.report{
+    background: linear-gradient(0deg, rgb(190, 85, 173) 0%, rgb(31, 17, 53) 100%);
+    border-radius: 5px;
+    width: 43%;
+    margin: 15% 3%;
+    float: left;
+    height: 21em;
+      
+}
+.report p , .report h2{
+    padding: 1em;
+}
+
+/*start home */
+/*end header*/
+/*start about*/
+.about .report1{
+    background: linear-gradient(0deg, rgb(190, 85, 173) 0%, rgb(31, 17, 53) 100%);
+    border-radius: 5px;
+    width: 60%;
+    margin: 20% auto;
+    height: 21em;
+      
+}
+
+.report1 p , .report1 h2{
+    padding: 1em;
+}
+
+
+/*start my framework*/
+.container {
+    width: 93%;
+    margin: auto;
+    position: relative;
+}
+
+.clearfix {
+    clear: both;
+}
+.button{
+    background: linear-gradient(0deg, rgb(190, 85, 173) 0%, rgb(31, 17, 53) 100%);
+    border-radius: 5px;
+    margin:20px;
+    height: 3em;
+    width: 30%;
+    color: #fff;
+}
+/*end my framework*/
+
+
